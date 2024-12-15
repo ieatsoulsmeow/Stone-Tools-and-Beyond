@@ -1,0 +1,16 @@
+{
+    "stringId": "base:stone_gravel",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "base:models/blocks/model_stone_gravel.json",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"],
+            "blockEventsId": "base:block_events_gravel",
+            "tags": [
+                "tool_shovel_effective", "ore_replaceable"
+            ],
+            "hardness": 8
+        }
+    }
+}

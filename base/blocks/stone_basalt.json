@@ -1,0 +1,16 @@
+{
+    "stringId": "base:stone_basalt",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "base:models/blocks/model_stone_basalt.json",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"],
+            "blockEventsId": "base:block_events_basalt_break",
+            "tags": [
+                "tool_pickaxe_effective", "craft_tool_stone", "ore_replaceable"
+            ],
+            "hardness": 22
+        }
+    }
+}

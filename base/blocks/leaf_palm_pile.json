@@ -1,0 +1,201 @@
+{
+    "stringId": "base:leaf_palm_pile",
+    "blockStates":
+    {
+        "regular_level1": 
+        {
+            "modelName": "base:models/blocks/model_palm_leaves_stack_1.json",
+            "blockEventsId": "base:leaf_palm_pile_level_1",
+            "isOpaque": false,
+            "lightAttenuation": 0,
+            "hardness": 0.01
+        },
+        "regular_level2":
+        {
+            "modelName": "base:models/blocks/model_palm_leaves_stack_2.json",
+            "blockEventsId": "base:leaf_palm_pile_level_2",
+            "isOpaque": false,
+            "lightAttenuation": 1,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "regular_level3":
+        {
+            "modelName": "base:models/blocks/model_palm_leaves_stack_3.json",
+            "blockEventsId": "base:leaf_palm_pile_level_3",
+            "isOpaque": false,
+            "lightAttenuation": 1,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "regular_level4": 
+        {
+            "modelName": "base:models/blocks/model_palm_leaves_stack_4.json",
+            "blockEventsId": "base:leaf_palm_pile_level_4",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "regular_level5":
+        {
+            "modelName": "base:models/blocks/model_palm_leaves_stack_5.json",
+            "blockEventsId": "base:leaf_palm_pile_level_5",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "regular_level6":
+        {
+            "modelName": "base:models/blocks/model_palm_leaves_stack_6.json",
+            "blockEventsId": "base:leaf_palm_pile_level_6",
+            "isOpaque": false,
+            "lightAttenuation": 3,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "regular_level7":
+        {
+            "modelName": "base:models/blocks/model_palm_leaves_stack_7.json",
+            "blockEventsId": "base:leaf_palm_pile_level_7",
+            "isOpaque": false,
+            "lightAttenuation": 3,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+
+
+
+
+        "halfway_level1": 
+        {
+            "modelName": "base:models/blocks/model_half_dry_palm_leaves_stack_1.json",
+            "blockEventsId": "base:leaf_half_dry_palm_pile_level_1",
+            "isOpaque": false,
+            "lightAttenuation": 0,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "halfway_level2":
+        {
+            "modelName": "base:models/blocks/model_half_dry_palm_leaves_stack_2.json",
+            "blockEventsId": "base:leaf_half_dry_palm_pile_level_2",
+            "isOpaque": false,
+            "lightAttenuation": 1,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "halfway_level3":
+        {
+            "modelName": "base:models/blocks/model_half_dry_palm_leaves_stack_3.json",
+            "blockEventsId": "base:leaf_half_dry_palm_pile_level_3",
+            "isOpaque": false,
+            "lightAttenuation": 1,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "halfway_level4": 
+        {
+            "modelName": "base:models/blocks/model_half_dry_palm_leaves_stack_4.json",
+            "blockEventsId": "base:leaf_half_dry_palm_pile_level_4",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "halfway_level5":
+        {
+            "modelName": "base:models/blocks/model_half_dry_palm_leaves_stack_5.json",
+            "blockEventsId": "base:leaf_half_dry_palm_pile_level_5",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "halfway_level6":
+        {
+            "modelName": "base:models/blocks/model_half_dry_palm_leaves_stack_6.json",
+            "blockEventsId": "base:leaf_half_dry_palm_pile_level_6",
+            "isOpaque": false,
+            "lightAttenuation": 3,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "halfway_level7":
+        {
+            "modelName": "base:models/blocks/model_half_dry_palm_leaves_stack_7.json",
+            "blockEventsId": "base:leaf_half_dry_palm_pile_level_7",
+            "isOpaque": false,
+            "lightAttenuation": 3,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+
+
+
+
+        "dry_level1": 
+        {
+            "modelName": "base:models/blocks/model_dry_palm_leaves_stack_1.json",
+            "blockEventsId": "base:leaf_dry_palm_pile_level_1",
+            "isOpaque": false,
+            "lightAttenuation": 0,
+            "hardness": 0.01
+        },
+        "dry_level2":
+        {
+            "modelName": "base:models/blocks/model_dry_palm_leaves_stack_2.json",
+            "blockEventsId": "base:leaf_dry_palm_pile_level_2",
+            "isOpaque": false,
+            "lightAttenuation": 0,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "dry_level3":
+        {
+            "modelName": "base:models/blocks/model_dry_palm_leaves_stack_3.json",
+            "blockEventsId": "base:leaf_dry_palm_pile_level_3",
+            "isOpaque": false,
+            "lightAttenuation": 1,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "dry_level4": 
+        {
+            "modelName": "base:models/blocks/model_dry_palm_leaves_stack_4.json",
+            "blockEventsId": "base:leaf_dry_palm_pile_level_4",
+            "isOpaque": false,
+            "lightAttenuation": 1,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "dry_level5":
+        {
+            "modelName": "base:models/blocks/model_dry_palm_leaves_stack_5.json",
+            "blockEventsId": "base:leaf_dry_palm_pile_level_5",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "dry_level6":
+        {
+            "modelName": "base:models/blocks/model_dry_palm_leaves_stack_6.json",
+            "blockEventsId": "base:leaf_dry_palm_pile_level_6",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "hardness": 0.01,
+            "catalogHidden": true
+        },
+        "dry_level7":
+        {
+            "modelName": "base:models/blocks/model_dry_palm_leaves_stack_7.json",
+            "blockEventsId": "base:leaf_dry_palm_pile_level_7",
+            "isOpaque": false,
+            "lightAttenuation": 3,
+            "hardness": 0.01,
+            "catalogHidden": true
+        }
+    }
+}

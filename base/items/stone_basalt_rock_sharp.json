@@ -1,0 +1,19 @@
+{
+    "id": "base:stone_basalt_rock_sharp",
+    "itemProperties": 
+    {
+        "texture": "textures/items/basalt_rock_sharp.png",
+        "modelType": "base:item3D",
+        "stackLimit": 9,
+        "tags": [
+                "stone_rock",
+                "sharp_rock"
+        ],
+        "toolSpeed": 1.5,
+        "durability": 15,
+        "effectiveBreakingTags": [
+            "tool_axe_effective",
+            "tool_pickaxe_effective"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "base:axe_aluminium": "Aluminium Axe",
+    "base:axe_iron": "Iron Axe",
+    "base:axe_stone": "Stone Axe",
+    "base:pickaxe_aluminium": "Aluminium Pickaxe",
+    "base:pickaxe_iron": "Iron Pickaxe",
+    "base:pickaxe_stone": "Stone Pickaxe",
+    "base:shovel_aluminium": "Aluminium Shovel",
+    "base:shovel_iron": "Iron Shovel",
+    "base:shovel_stone": "Stone Shovel",
+    "base:ingot_aluminium": "Aluminium Ingot",
+    "base:ingot_iron": "Iron Ingot",
+    "base:ingot_gold": "Gold Ingot",
+
+    "base:medkit": "Medkit",
+    "base:medkit_gold": "Gold Medkit",
+    "base:stick": "Stick",
+    "base:fluid_vacuum": "Fluid Vacuum",
+
+    "base:stone_basalt_dust": "Basalt Dust",
+    "base:stone_basalt_rock": "Basalt Rock",
+    "base:stone_basalt_rock_sharp": "Sharp Basalt Rock (Firm)",
+    "base:stone_basalt_pickaxe": "Basalt Pickaxe",
+    "base:stone_gabbro_dust": "Gabbro Dust",
+    "base:stone_gabbro_rock": "Gabbro Rock",
+    "base:stone_gabbro_rock_sharp": "Sharp Gabbro Rock (Firm)",
+    "base:stone_gabbro_pickaxe": "Gabbro Pickaxe",
+    "base:stone_limestone_dust": "Limestone Dust",
+    "base:stone_limestone_rock": "Limestone Rock",
+    "base:stone_limestone_rock_sharp": "Sharp Limestone Rock (Brittle)",
+    "base:stone_limestone_pickaxe": "Limestone Pickaxe",
+
+    "base:leaf_poplar": "Poplar Leaf",
+    "base:leaf_palm": "Palm Leaf",
+    "base:leaf_palm_dry": "Dry Palm Leaf",
+
+    "base:thread_palm": "Palm Thread",
+
+    "base:wood_bark": "Tree Bark"
+}

@@ -1,0 +1,126 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "base:block_events_air",
+    "triggers":
+    {
+        "checkBelow":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir"
+                }
+            }
+        ],
+
+        "isAirXNeg":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateXPos"
+                }
+            }
+        ],
+
+        "isAirXPos":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateXNeg"
+                }
+            }
+        ],
+
+        "isAirZPos":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 1,
+                    "triggerId": "updateZNeg"
+                }
+            }
+        ],
+
+        "isAirZNeg":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": -1,
+                    "triggerId": "updateZPos"
+                }
+            }
+        ],
+
+        "isAirYPos":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 1, "zOff": 1,
+                    "triggerId": "updateYNeg"
+                }
+            }
+        ],
+
+        "checkXPosY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 1, "zOff": 0,
+                    "triggerId": "xNegYClear"
+                }
+            }
+        ],
+
+        "checkXNegY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 1, "zOff": 0,
+                    "triggerId": "xPosYClear"
+                }
+            }
+        ],
+
+        "checkZPosY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": -1,
+                    "triggerId": "zPosYClear"
+                }
+            }
+        ],
+
+        "checkZNegY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 1,
+                    "triggerId": "zNegYClear"
+                }
+            }
+        ]
+    }
+}

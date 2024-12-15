@@ -1,0 +1,11 @@
+{
+    "id": "base:wood_bark",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/wood_bark.png",
+        "modelType": "base:item3D",
+        "stackLimit": 16,
+        "fuelTicks": 8
+    }
+}

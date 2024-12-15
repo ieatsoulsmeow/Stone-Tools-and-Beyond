@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_limestone_rock",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/limestone_rock.png",
+        "modelType": "base:item3D",
+        "stackLimit": 9,
+        "tags": [
+                "stone_rock"
+        ]
+    }
+}

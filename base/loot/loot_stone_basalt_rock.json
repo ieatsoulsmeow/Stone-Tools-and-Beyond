@@ -1,0 +1,9 @@
+{
+    "id": "base:loot_stone_basalt_rock",
+    "options": [
+        {
+            "weight": 0.5,
+            "stacks":[{ "id": "base:stone_basalt_rock", "max": 4 }]
+        }
+    ]
+}

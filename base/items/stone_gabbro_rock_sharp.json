@@ -1,0 +1,19 @@
+{
+    "id": "base:stone_gabbro_rock_sharp",
+    "itemProperties": 
+    {
+        "texture": "textures/items/gabbro_rock_sharp.png",
+        "modelType": "base:item3D",
+        "stackLimit": 9,
+        "tags": [
+                "stone_rock",
+                "sharp_rock"
+        ],
+        "toolSpeed": 1.5,
+        "durability": 10,
+        "effectiveBreakingTags": [
+            "tool_axe_effective",
+            "tool_pickaxe_effective"
+        ]
+    }
+}

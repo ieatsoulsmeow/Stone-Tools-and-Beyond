@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_basalt_dust",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/basalt_dust.png",
+        "modelType": "base:item3D",
+        "stackLimit": 9,
+        "tags": [
+                "stone_dust"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "stringId": "base:water",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "base:models/blocks/model_water.json",
+            "isOpaque": false,
+            "lightAttenuation": 1,
+            "canRaycastForBreak": false,
+            "canRaycastForPlaceOn": false,
+            "canRaycastForReplace": true,
+            "walkThrough": true,
+            "isFluid": true,
+            "hardness": 0.01,
+            "tags": ["fluid_vacuum_breakable"]
+        }
+    }
+}

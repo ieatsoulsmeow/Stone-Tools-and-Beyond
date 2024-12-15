@@ -1,0 +1,34 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "base:block_events_wood",
+    "triggers":
+    {
+        "relayPlayBreakSound":
+        [
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "base:sounds/blocks/wood-break-1.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ],
+
+        "relayPlayPlaceSound":
+        [
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "base:sounds/blocks/wood-break-1.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ]
+    }
+}

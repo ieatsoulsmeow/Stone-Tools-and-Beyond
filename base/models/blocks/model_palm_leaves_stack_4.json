@@ -1,0 +1,13 @@
+{
+    "parent": "base:models/blocks/stack_4.json",
+    "isTransparent": true,
+
+    "textures":
+    {
+        "all":
+        {
+            "fileName": "base:textures/items/leaf_palm.png"
+        }
+    }
+    
+}

@@ -1,0 +1,19 @@
+{
+    "recipes":
+    [
+        {
+            "pattern": [
+                "**"
+            ],
+            "inputs":
+            {
+                "*": "base:leaf_palm"
+            },
+            "output": 
+            {
+                "item": "base:leaf_palm_pile[regular_level1]",
+                "amount": 1
+            }
+        }
+    ]
+}

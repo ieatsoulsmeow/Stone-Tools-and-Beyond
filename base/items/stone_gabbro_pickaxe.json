@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_gabbro_pickaxe",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/pickaxe_gabbro.png",
+        "modelType": "base:item3D",
+        "stackLimit": 1,
+        "toolSpeed": 3,
+        "durability": 45,
+        "effectiveBreakingTags": ["tool_pickaxe_effective"]
+    }
+}

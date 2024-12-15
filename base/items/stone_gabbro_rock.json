@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_gabbro_rock",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/gabbro_rock.png",
+        "modelType": "base:item3D",
+        "stackLimit": 9,
+        "tags": [
+                "stone_rock"
+        ]
+    }
+}

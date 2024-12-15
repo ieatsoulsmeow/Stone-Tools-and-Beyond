@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"log_chop_1.png": {
+			"fileName": "base:textures/blocks/log_chop_1.png"
+		},
+		"tree_log_top.png": {
+			"fileName": "base:textures/blocks/tree_log_top.png"
+		}
+	},
+	"cuboids": [{
+			"localBounds": [3,0,3,13,16,13],
+			"faces": {
+				"localPosY": {"uv":[3,3,13,13],"ambientocclusion":false,"cullFace":false,"texture":"tree_log_top.png","uvRotation":0},
+				"localNegY": {"uv":[3,3,13,13],"ambientocclusion":false,"cullFace":false,"texture":"tree_log_top.png","uvRotation":0},
+				"localNegZ": {"uv":[2,0,12,16],"ambientocclusion":false,"cullFace":false,"texture":"log_chop_1.png","uvRotation":0},
+				"localPosZ": {"uv":[2,0,12,16],"ambientocclusion":false,"cullFace":false,"texture":"log_chop_1.png","uvRotation":0},
+				"localPosX": {"uv":[2,0,12,16],"ambientocclusion":false,"cullFace":false,"texture":"log_chop_1.png","uvRotation":0},
+				"localNegX": {"uv":[2,0,12,16],"ambientocclusion":false,"cullFace":false,"texture":"log_chop_1.png","uvRotation":0}
+			}
+		}]
+}

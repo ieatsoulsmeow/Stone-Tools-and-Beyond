@@ -1,0 +1,209 @@
+{
+    "parent":"base:block_events_default",
+    "stringId": "base:block_events_water",
+    "triggers":
+    {
+        "onPlace":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayPlayPlaceSound"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateWater",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "checkBelow":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir"
+                }
+            }
+        ],
+
+        "updateXNeg":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateWater",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "updateXPos":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateWater",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "updateZNeg":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "updateWater",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "updateZPos":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "updateWater",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "updateYNeg":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": -1,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "updateWater",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "updateWater":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "isAirXNeg",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "isAirXPos",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "isAirZNeg",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "isAirZPos",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 1,
+                    "triggerId": "isAirZYNeg",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 1,
+                    "triggerId": "isAirYPos",
+                    "tickDelay": 1
+                }
+            }
+        ]
+    }
+}

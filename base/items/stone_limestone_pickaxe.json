@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_limestone_pickaxe",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/pickaxe_limestone.png",
+        "modelType": "base:item3D",
+        "stackLimit": 1,
+        "toolSpeed": 2.6,
+        "durability": 30,
+        "effectiveBreakingTags": ["tool_pickaxe_effective"]
+    }
+}

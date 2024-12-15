@@ -1,0 +1,11 @@
+{
+    "id": "base:leaf_palm",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/leaf_palm.png",
+        "modelType": "base:item3D",
+        "stackLimit": 24,
+        "fuelTicks": 4
+    }
+}

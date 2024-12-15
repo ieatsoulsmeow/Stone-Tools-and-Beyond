@@ -1,0 +1,13 @@
+{
+    "id": "base:loot_leaves_poplar",
+    "options": [
+        {
+            "weight": 0.9,
+            "stacks":[{ "id": "base:leaf_poplar", "min": 1, "max": 7 }, { "id": "base:stick", "min": 0, "max": 3 }]
+        },
+        {
+            "weight": 0.1,
+            "stacks":[{ "id": "base:sapling_poplar[growth=0]", "max": 1 }]
+        }
+    ]
+}

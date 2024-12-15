@@ -1,0 +1,40 @@
+{
+    "recipes":
+    [
+        {
+            "inputs":
+            [
+                { "base:stone_basalt_rock": 2 }
+            ],
+            "output": 
+            {
+                "item": "base:stone_basalt_rock_sharp",
+                "amount": 1
+            }
+        },
+
+        {
+            "inputs":
+            [
+                { "base:stone_gabbro_rock": 2 }
+            ],
+            "output": 
+            {
+                "item": "base:stone_gabbro_rock_sharp",
+                "amount": 1
+            }
+        },
+
+        {
+            "inputs":
+            [
+                { "base:stone_limestone_rock": 2 }
+            ],
+            "output": 
+            {
+                "item": "base:stone_limestone_rock_sharp",
+                "amount": 1
+            }
+        }
+    ]
+}

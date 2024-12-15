@@ -1,0 +1,9 @@
+{
+    "id": "base:loot_stone_gabbro_rock",
+    "options": [
+        {
+            "weight": 0.5,
+            "stacks":[{ "id": "base:stone_gabbro_rock", "max": 4 }]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "id": "base:loot_leaves_palm",
+    "options": [
+        {
+            "weight": 0.6,
+            "stacks":[{ "id": "base:leaf_palm[default]", "min": 1, "max": 4 }]
+        }
+    ]
+}

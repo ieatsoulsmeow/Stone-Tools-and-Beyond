@@ -1,0 +1,58 @@
+{
+    "stringId": "base:leaf_palm_pile_level_2",
+    "parent":"base:block_events_default",
+    "triggers":
+    {
+        "onBreak":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[regular_level1]"
+                }
+            },
+            {
+                "actionId": "base:item_drop",
+                "parameters": 
+                {
+                    "dropId": "base:leaf_palm",
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:item_drop",
+                "parameters": 
+                {
+                    "dropId": "base:leaf_palm",
+                    "position": [0, 0, 0]
+                }
+            }
+        ],
+
+        "isBelowLeafPalmPile":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowLeafPalmPile2"
+                }
+            }
+        ],
+
+        "onRandomTick":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[halfway_level2]"
+                }
+            }
+        ]
+    }    
+}

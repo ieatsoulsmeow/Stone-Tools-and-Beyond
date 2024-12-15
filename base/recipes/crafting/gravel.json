@@ -1,0 +1,23 @@
+{
+    "recipes":
+    [
+        {
+            "pattern": [
+                "***",
+                "***",
+                "***"
+            ],
+            "inputs":
+            {
+                "*":
+                {
+                    "has_tag": "craft_tool_stone"
+                }
+            },
+            "output": 
+            {
+                "item": "base:stone_gravel[default]", "amount": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "id": "base:loot_stone_gabbro_dust",
+    "options": [
+        {
+            "weight": 0.5,
+            "stacks":[{ "id": "base:stone_gabbro_dust", "max": 2 }]
+        }
+    ]
+}

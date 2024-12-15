@@ -1,0 +1,109 @@
+{
+    "stringId": "base:tree_log",
+    "blockStates":
+    {
+        "default": 
+        {
+            "blockEventsId": "base:block_events_wood_natural",
+            "modelName": "base:models/blocks/model_tree_log.json",
+            "catalogHidden": true,
+            "stateGenerators": ["base:slabs_all"],
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 64
+            },
+            "hardness": 16
+        },
+        "chop1": 
+        {
+            "blockEventsId": "base:block_events_wood_chopped_1",
+            "modelName": "base:models/blocks/log_chop_1.json",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "hardness": 16
+        },
+        "chop2": 
+        {
+            "blockEventsId": "base:block_events_wood_chopped_2",
+            "modelName": "base:models/blocks/log_chop_2.json",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "hardness": 16
+        },
+        "chop3": 
+        {
+            "blockEventsId": "base:block_events_wood_chopped_3",
+            "modelName": "base:models/blocks/log_chop_3.json",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "hardness": 16
+        },
+        "chop4": 
+        {
+            "blockEventsId": "base:block_events_wood_chopped_4",
+            "modelName": "base:models/blocks/log_chop_4.json",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "hardness": 16
+        },
+        "chop5": 
+        {
+            "blockEventsId": "base:block_events_wood_chopped_5",
+            "modelName": "base:models/blocks/log_chop_5.json",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "hardness": 16
+        },
+        "chop6": 
+        {
+            "blockEventsId": "base:block_events_wood_chopped_6",
+            "modelName": "base:models/blocks/log_chop_6.json",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "hardness": 16
+        },
+        "dropped": 
+        {
+            "blockEventsId": "base:block_events_wood",
+            "modelName": "base:models/blocks/model_tree_log.json",
+            "stateGenerators": ["base:slabs_all"],
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 64
+            },
+            "hardness": 16
+        },
+        "type=bark": 
+        {
+            "blockEventsId": "base:block_events_wood",
+            "modelName": "base:models/blocks/model_tree_log_bark.json",
+            "stateGenerators": ["base:slabs_all", "base:stairs_seamless_all"],
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 64
+            },
+            "hardness": 16
+        }
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "stringId": "base:leaf_dry_palm_pile_level_1",
+    "parent":"base:block_events_default",
+    "triggers":
+    {
+        "onBreak":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:item_drop",
+                "parameters": 
+                {
+                    "dropId": "base:leaf_palm_dry",
+                    "position": [0, 0, 0]
+                }
+            },
+            {
+                "actionId": "base:item_drop",
+                "parameters": 
+                {
+                    "dropId": "base:leaf_palm_dry",
+                    "position": [0, 0, 0]
+                }
+            }
+        ],
+
+        "onPlace":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayPlayPlaceSound"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "isBelowDryLeafPalmPile"
+                }
+            }
+        ],
+
+        "isBelowDryLeafPalmPile":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowDryLeafPalmPile"
+                }
+            }
+        ],
+
+        "onBelowDryLeafPalmPile":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[dry_level2]"
+                }
+            }
+        ],
+
+        "onBelowDryLeafPalmPile2":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[dry_level3]"
+                }
+            }
+        ],
+
+        "onBelowDryLeafPalmPile3":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[dry_level4]"
+                }
+            }
+        ],
+
+        "onBelowDryLeafPalmPile4":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[dry_level5]"
+                }
+            }
+        ],
+        
+        "onBelowDryLeafPalmPile5":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[dry_level6]"
+                }
+            }
+        ],
+
+        "onBelowDryLeafPalmPile6":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "base:leaf_palm_pile[dry_level7]"
+                }
+            }
+        ]
+    }    
+}

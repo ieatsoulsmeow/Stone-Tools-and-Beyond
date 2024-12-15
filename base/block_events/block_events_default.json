@@ -1,0 +1,171 @@
+{
+    "stringId": "base:block_events_default",
+    "triggers":
+    {
+        "onBreak":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateXNeg",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateXPos",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "updateZNeg",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": -1,
+                    "triggerId": "updateZPos",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayPlayBreakSound"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir",
+                    "tickDelay": 2
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:item_drop",
+                "parameters": 
+                {
+                    "position": [0, 0, 0]
+                }
+            }
+        ],
+
+        "onPlace":
+        [
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayPlayPlaceSound"
+                }
+            }
+        ],
+
+        "relayPlayBreakSound":
+        [
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "base:sounds/blocks/block-break.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ],
+
+        "relayPlayPlaceSound":
+        [
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters":
+                {
+                    "sound": "base:sounds/blocks/block-place.ogg",
+                    "volume": 1,
+                    "pitch": 1,
+                    "pan": 0
+                }
+            }
+        ],
+
+        "checkBelow":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsNotAir"
+                }
+            }
+        ],
+
+        "checkXPosY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 1, "zOff": 0,
+                    "triggerId": "noXPosY"
+                }
+            }
+        ],
+
+        "checkXNegY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 1, "zOff": 0,
+                    "triggerId": "noXNegY"
+                }
+            }
+        ],
+
+        "checkZPosY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": -1,
+                    "triggerId": "noXPosY"
+                }
+            }
+        ]
+    }    
+}

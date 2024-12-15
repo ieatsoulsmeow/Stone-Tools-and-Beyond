@@ -1,0 +1,401 @@
+{
+    "stringId": "base:block_events_gravel",
+    "parent":"base:block_events_default",
+    "triggers":
+    {
+        "onPlace":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "checkBelow",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters":
+                {
+                    "triggerId": "relayPlayPlaceSound"
+                }
+            }
+        ],
+
+        "updateGravel":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "triggerId": "checkBelow",
+                    "tickDelay": 1
+                }
+            }
+        ],
+
+        "onBelowIsNotAir":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": -1, "zOff": 0,
+                    "triggerId": "checkXPosY"
+                }
+            }
+        ],
+
+        "noXPosY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": -1, "zOff": 0,
+                    "triggerId": "checkXNegY"
+                }
+            }
+        ],
+
+        "noXNegY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -1, "zOff": -1,
+                    "triggerId": "checkZNegY"
+                }
+            }
+        ],
+
+        "noZPosY":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 1,
+                    "triggerId": "checkZPosY"
+                }
+            }
+        ],
+
+        "xNegYClear":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "triggerId": "onRunTriggers"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": -1, "yOff": -1, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": -2, "zOff": 0,
+                    "triggerId": "checkBelow",
+                    "tickDelay": 2
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "xPosYClear":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "triggerId": "onRunTriggers"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 1, "yOff": -1, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": -2, "zOff": 0,
+                    "triggerId": "checkBelow",
+                    "tickDelay": 2
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "zNegYClear":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "triggerId": "onRunTriggers"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": -1,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -2, "zOff": -1,
+                    "triggerId": "checkBelow",
+                    "tickDelay": 2
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "zPosYClear":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "triggerId": "onRunTriggers"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 1,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -2, "zOff": 1,
+                    "triggerId": "checkBelow",
+                    "tickDelay": 2
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir",
+                    "tickDelay": 2
+                }
+            }
+        ],
+
+        "onRunTriggers":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateXNeg",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateXPos",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "updateZNeg",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "updateZPos",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateGravel",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": -1, "yOff": 0, "zOff": 0,
+                    "triggerId": "updateGravel",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "updateGravel",
+                    "tickDelay": 1
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 1,
+                    "triggerId": "updateGravel",
+                    "tickDelay": 1
+                }
+            }
+        ],
+
+        "onBelowIsAir":
+        [
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "triggerId": "onRunTriggers"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": -1, "zOff": 0,
+                    "blockStateId": "self"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters":
+                {
+                    "xOff": 0, "yOff": 0, "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": -2, "zOff": 0,
+                    "triggerId": "checkBelow",
+                    "tickDelay": 2
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "parameters": 
+                {
+                    "xOff": 0, "yOff": 1, "zOff": 0,
+                    "triggerId": "onBelowIsAir",
+                    "tickDelay": 2
+                }
+            }
+        ]
+    }    
+}

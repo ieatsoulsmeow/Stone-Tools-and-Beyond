@@ -1,0 +1,14 @@
+{
+    "id": "base:stone_basalt_rock",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/basalt_rock.png",
+        "modelType": "base:item3D",
+        "stackLimit": 9,
+        "tags": [
+                "stone_rock",
+                "craft_tool_stone"
+        ]
+    }
+}

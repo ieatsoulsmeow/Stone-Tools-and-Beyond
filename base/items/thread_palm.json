@@ -1,0 +1,14 @@
+{
+    "id": "base:thread_palm",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/thread_palm.png",
+        "modelType": "base:item3D",
+        "stackLimit": 32,
+        "tags": [
+                "weak_thread",
+                "thread"
+        ]
+    }
+}

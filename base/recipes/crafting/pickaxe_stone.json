@@ -1,0 +1,107 @@
+{
+    "recipes":
+    [
+        {
+            "pattern": [
+                "s|s",
+                " |t",
+                " | "
+            ],
+            "inputs":
+            {
+                "s": "base:stone_basalt_rock_sharp",
+                "|": "base:stick",
+                "t": "base:thread_palm"
+            },
+            "output": 
+            {
+                "item": "base:stone_basalt_pickaxe", "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "s|s",
+                "t| ",
+                " | "
+            ],
+            "inputs":
+            {
+                "s": "base:stone_basalt_rock_sharp",
+                "|": "base:stick",
+                "t": "base:thread_palm"
+            },
+            "output": 
+            {
+                "item": "base:pickaxe_stone", "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "s|s",
+                " |t",
+                " | "
+            ],
+            "inputs":
+            {
+                "s": "base:stone_limestone_rock_sharp",
+                "|": "base:stick",
+                "t": "base:thread_palm"
+            },
+            "output": 
+            {
+                "item": "base:pickaxe_stone", "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "s|s",
+                "t| ",
+                " | "
+            ],
+            "inputs":
+            {
+                "s": "base:stone_limestone_rock_sharp",
+                "|": "base:stick",
+                "t": "base:thread_palm"
+            },
+            "output": 
+            {
+                "item": "base:pickaxe_stone", "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "s|s",
+                " |t",
+                " | "
+            ],
+            "inputs":
+            {
+                "s": "base:stone_gabbro_rock_sharp",
+                "|": "base:stick",
+                "t": "base:thread_palm"
+            },
+            "output": 
+            {
+                "item": "base:pickaxe_stone", "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "s|s",
+                "t| ",
+                " | "
+            ],
+            "inputs":
+            {
+                "s": "base:stone_gabbro_rock_sharp",
+                "|": "base:stick",
+                "t": "base:thread_palm"
+            },
+            "output": 
+            {
+                "item": "base:pickaxe_stone", "amount": 1
+            }
+        }
+    ]
+}
