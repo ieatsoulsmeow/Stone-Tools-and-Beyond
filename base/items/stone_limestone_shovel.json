@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_limestone_shovel",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/shovel_limestone.png",
+        "modelType": "base:item3D",
+        "stackLimit": 1,
+        "toolSpeed": 2.6,
+        "durability": 30,
+        "effectiveBreakingTags": ["tool_shovel_effective"]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "base:shovel_stone",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/shovel_stone.png",
+        "modelType": "base:item3D",
+        "stackLimit": 1,
+        "toolSpeed": 4,
+        "durability": 256,
+        "effectiveBreakingTags": ["tool_shovel_effective"],
+        "catalogHidden": true
+    }
+}

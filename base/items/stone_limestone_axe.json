@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_limestone_axe",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/axe_limestone.png",
+        "modelType": "base:item3D",
+        "stackLimit": 1,
+        "toolSpeed": 2.6,
+        "durability": 30,
+        "effectiveBreakingTags": ["tool_axe_effective"]
+    }
+}

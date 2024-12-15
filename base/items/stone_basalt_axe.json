@@ -1,0 +1,13 @@
+{
+    "id": "base:stone_basalt_axe",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/axe_basalt.png",
+        "modelType": "base:item3D",
+        "stackLimit": 1,
+        "toolSpeed": 3,
+        "durability": 45,
+        "effectiveBreakingTags": ["tool_axe_effective"]
+    }
+}

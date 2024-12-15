@@ -1,0 +1,14 @@
+{
+    "id": "base:axe_stone",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/axe_stone.png",
+        "modelType": "base:item3D",
+        "stackLimit": 1,
+        "toolSpeed": 4,
+        "durability": 256,
+        "effectiveBreakingTags": ["tool_axe_effective"],
+        "catalogHidden": true
+    }
+}
