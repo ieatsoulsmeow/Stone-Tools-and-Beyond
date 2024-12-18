@@ -1,0 +1,90 @@
+{
+    "stringId": "base:leaves",
+    "blockStates":
+    {
+        "type=permament":
+        {
+            "modelName": "base:models/blocks/model_leaves.json",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "stateGenerators": ["base:slabs_all"],
+            "blockEventsId": "base:block_events_leaf_palm",
+            "catalogHidden": false,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 4
+            }
+        },
+        "dist=1,type=decaying": 
+        {
+            "modelName": "base:models/blocks/model_leaves.json",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "stateGenerators": ["base:slabs_all"],
+            "blockEventsId": "base:block_events_leaf_decay_palm",
+            "dropId": "base:leaves[type=permament]",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 4
+            }
+        },
+        "dist=2,type=decaying": 
+        {
+            "modelName": "base:models/blocks/model_leaves.json",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "stateGenerators": ["base:slabs_all"],
+            "blockEventsId": "base:block_events_leaf_decay_palm",
+            "dropId": "base:leaves[type=permament]",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 4
+            }
+        },
+        "dist=3,type=decaying": 
+        {
+            "modelName": "base:models/blocks/model_leaves.json",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "stateGenerators": ["base:slabs_all"],
+            "blockEventsId": "base:block_events_leaf_decay_palm",
+            "dropId": "base:leaves[type=permament]",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 4
+            }
+        },
+        "dist=4,type=decaying": 
+        {
+            "modelName": "base:models/blocks/model_leaves.json",
+            "isOpaque": false,
+            "lightAttenuation": 2,
+            "stateGenerators": ["base:slabs_all"],
+            "blockEventsId": "base:block_events_leaf_decay_palm",
+            "dropId": "base:leaves[type=permament]",
+            "catalogHidden": true,
+            "tags": [
+                "tool_axe_effective"
+            ],
+            "intProperties":
+            {
+                "fuelTicks": 4
+            }
+        }
+    }
+}

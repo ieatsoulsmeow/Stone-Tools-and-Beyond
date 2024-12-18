@@ -1,0 +1,14 @@
+{
+    "id": "base:string_palm",
+
+    "itemProperties": 
+    {
+        "texture": "textures/items/string_palm.png",
+        "modelType": "base:item3D",
+        "stackLimit": 32,
+        "tags": [
+                "weak_string",
+                "string"
+        ]
+    }
+}

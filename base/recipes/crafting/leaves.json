@@ -3,6 +3,7 @@
     [
         {
             "pattern": [
+                "**",
                 "**"
             ],
             "inputs":
@@ -11,22 +12,24 @@
             },
             "output": 
             {
-                "item": "base:leaf_palm_pile[regular_level1]",
+                "item": "base:leaves[type=permament]",
                 "amount": 1
             }
         },
 
         {
             "pattern": [
-                "**"
+                "***",
+                "***",
+                "***"
             ],
             "inputs":
             {
-                "*": "base:leaf_palm_dry"
+                "*": "base:leaf_poplar"
             },
             "output": 
             {
-                "item": "base:leaf_palm_pile[dry_level1]",
+                "item": "base:leaves_poplar[type=permanent]",
                 "amount": 1
             }
         }

@@ -1,0 +1,35 @@
+{
+    "recipes":
+    [
+        {
+            "pattern": [
+                " * ",
+                "* *",
+                " * "
+            ],
+            "inputs":
+            {
+                "*": "base:string_palm"
+            },
+            "output": 
+            {
+                "item": "base:thread_palm",
+                "amount": 1
+            }
+        },
+
+        {
+            "inputs":
+            [
+                {
+                    "base:leaf_palm_dry": 1
+                }
+            ],
+            "output": 
+            {
+                "item": "base:string_palm",
+                "amount": 5
+            }
+        }
+    ]
+}

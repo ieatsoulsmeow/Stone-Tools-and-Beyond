@@ -42,5 +42,7 @@
 
     "base:thread_palm": "Palm Thread",
 
+    "base:string_palm": "Palm String",
+
     "base:wood_bark": "Tree Bark"
 }

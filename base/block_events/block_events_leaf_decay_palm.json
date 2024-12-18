@@ -1,0 +1,19 @@
+{
+    "parent":"base:block_events_leaf_palm",
+    "stringId": "base:block_events_leaf_decay_palm",
+    "triggers":
+    {
+        "onRandomTick":
+        [
+            {
+                "actionId": "base:leaf_decay",
+                "parameters":
+                {
+                    "maxDist": 4,
+                    "paramName": "dist",
+                    "runOnCompleteDecay": "relayPalmLootDrop"
+                }
+            }
+        ]
+    }
+}
